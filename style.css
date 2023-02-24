@@ -65,6 +65,7 @@
     justify-content: space-between;
     font-size: .8rem;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 
@@ -119,6 +120,7 @@
     padding: 0.7rem;
     border: 1px solid var(--Light-grayish-violet);
     border-radius: 6px;
+    outline: none;
 }
 
 .section-two .input label {
@@ -148,6 +150,8 @@
     padding: 0.7rem;
     border: 1px solid var(--Light-grayish-violet);
     border-radius: 6px;
+    outline: none;
+
 }
 
 .date input {
@@ -156,6 +160,8 @@
     padding: 0.7rem;
     border: 1px solid var(--Light-grayish-violet);
     border-radius: 6px;
+    outline: none;
+
 }
 
 .cvc input {
@@ -164,7 +170,19 @@
     padding: 0.7rem;
     border: 1px solid var(--Light-grayish-violet);
     border-radius: 6px;
+    outline: none;
 
+
+}
+
+.error{
+    color: var(--Red);
+    font-size: .7rem;
+    display: none;
+}
+
+.active{
+    display: block;
 }
 
 .exp label {
@@ -246,6 +264,7 @@ button {
 
     .card-front .name-card {
         font-size: .9rem;
+        text-transform: uppercase;
     }
 
     .card-back .value-cvc{
@@ -263,7 +282,7 @@ button {
     }
 
     .card-front .number-card{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     
 
@@ -310,7 +329,7 @@ button {
     }
 
     .card-front .number-card {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .card-front .logo {

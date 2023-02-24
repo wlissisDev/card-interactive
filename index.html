@@ -21,11 +21,11 @@
                 <div class="image-card">
                     <img class="logo" src="/assets/images/card-logo.svg" alt="">
                 </div>
-                <span class="number-card">1231 1231 1231 1231</span>
+                <span class="number-card">0000 0000 0000 0000</span>
                 <div class="name-card">
-                    <span class="name">WLISSIS RIBEIRO</span>
+                    <span class="name">JANE APPLESEED</span>
                     <div class="date-card">
-                        <span class="mes">00</span>/<span class="ano">00</span>
+                        <span class="mes">MM</span>/<span class="ano">YY</span>
                     </div>
                 </div>
             </div>
@@ -45,27 +45,32 @@
                 <button>Continue</button>
             </div>
             <!-- Formulário -->
-            <form >
+            <form>
                 <div class="name input">
                     <label>CARDHOLDER NAME</label>
-                    <input type="text" placeholder="e.g. Jane Appleseed">
+                    <input required type="text" placeholder="e.g. Jane Appleseed">
+                    <span class="error"></span>
                 </div>
                 <div class="number input">
                     <label>CARD NUMBER</label>
-                    <input type="text" placeholder="e.g. 0000 0000 0000 0000">
+                    <input required type="number" placeholder="e.g. 0000 0000 0000 0000">
+                    <span class="error"></span>
                 </div>
                 <div class="inputs">
                     <div class="exp info">
                         <label>EXP.DATE</label>
-                        <input type="text" placeholder="MM">
+                        <input required type="number" placeholder="MM">
+                        <span class="error"></span>
                     </div>
                     <div class="date info">
                         <label>(MM/YY)</label>
-                        <input type="text" placeholder="YY">
+                        <input required type="number" placeholder="YY">
+                        <span class="error"></span>
                     </div>
                     <div class="cvc info">
                         <label>CVC</label>
-                        <input type="text" placeholder="e.g. 123">
+                        <input required type="number" placeholder="e.g. 123">
+                        <span class="error"></span>
                     </div>
                 </div>
 
