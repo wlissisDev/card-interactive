@@ -59,17 +59,17 @@
                 <div class="inputs">
                     <div class="exp info">
                         <label>EXP.DATE</label>
-                        <input required type="number" placeholder="MM">
+                        <input required type="number" min="1" max="12" placeholder="MM">
                         <span class="error"></span>
                     </div>
                     <div class="date info">
                         <label>(MM/YY)</label>
-                        <input required type="number" placeholder="YY">
+                        <input required type="number" min="23" max="28" m placeholder="YY">
                         <span class="error"></span>
                     </div>
                     <div class="cvc info">
                         <label>CVC</label>
-                        <input required type="number" placeholder="e.g. 123">
+                        <input required type="number" min="000" max="999" placeholder="e.g. 123">
                         <span class="error"></span>
                     </div>
                 </div>

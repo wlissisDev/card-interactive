@@ -350,13 +350,13 @@ button {
     /* ================ */
     .section-two form {
         width: 90%;
-        gap: .4rem;
+        gap: 1rem;
         padding: 1rem;
     }
 
 
     .section-two .input input {
-        padding: 0.5rem;
+        padding: 0.8rem;
     }
     .section-two .input label {
         font-size: 0.7rem;
@@ -364,19 +364,19 @@ button {
 
     .exp input {
         width: 4rem;
-        padding: 0.5rem;
+        padding: 0.8rem;
 
     }
 
     .date input {
         width: 4rem;
-        padding: 0.5rem;
+        padding: 0.8rem;
 
     }
 
     .cvc input {
         width: 100%;
-        padding: 0.5rem;
+        padding: 0.8rem;
 
     }
 
